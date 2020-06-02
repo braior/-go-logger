@@ -55,7 +55,7 @@ func main() {
 	certDate := cert.NotAfter.Local()
 	sub := certDate.Sub(date)
 
-	if sub < 168*time.Hour {
+	if sub < 8760*time.Hour {
 		fmt.Println("1")
 	}
 

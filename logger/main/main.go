@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go_logger/mylogger"
+	"go_project/logger/mylogger"
 )
 
 // 申明一个全局的接口变量
